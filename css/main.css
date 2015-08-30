@@ -64,3 +64,30 @@ body {
   left: 526px;
   float:left;
 }
+
+.ryu-container {
+  float:left;
+  width: 659px;
+  height: 494px;
+}
+
+.text-content {
+  font-family: sans-serif;
+  float:left;
+  display:block;
+  position:absolute;
+  left:650px;
+  height:425px;
+  width:600px;
+  padding-top: 75px;
+}
+
+.text-content p {
+  width:50%;
+  font-size: 30px;
+  color:red;
+}
+
+.text-content p + p {
+  margin-left: 275px;
+}
